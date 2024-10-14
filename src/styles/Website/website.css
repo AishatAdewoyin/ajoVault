@@ -1,0 +1,13 @@
+:root {
+    --primary-color: rgba(90, 71, 207, 1);
+    --secondary-color-text: rgba(94, 0, 53, 1);
+    --fade-color1: rgba(181, 170, 252, 1);
+    --fade-color2: rgba(157, 142, 251, 1);
+    --main-font: "Poppins", sans-serif;
+ }
+ 
+ body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }

@@ -1,0 +1,58 @@
+ajoVault-web-app/
+├── .DS_Store
+├── .env
+├── .eslintrc.cjs
+├── .gitignore
+├── README.md
+├── index.html
+├── package.json
+├── postcss.config.js
+├── tailwind.config.js
+├── vite.config.js
+├── config/
+│   └── env.js
+├── controllers/
+│   ├── authController.js
+│   └── utilController.js
+├── db/
+│   └── index.js
+├── models/
+│   └── userModel.js
+├── routes/
+│   ├── authRoutes.js
+│   └── utilRoutes.js
+├── server.js
+├── public/
+│   ├── assets/
+│   │   ├── icons/
+│   │   ├── images/
+│   │   └── index.js
+├── src/
+│   ├── App.css
+│   ├── App.jsx
+│   ├── index.css
+│   ├── main.jsx
+│   ├── assets/
+│   │   ├── images/
+│   ├── components/
+│   │   ├── buttons/
+│   │   ├── Cards/
+│   │   ├── dashboard-components/
+│   │   │   └── home/
+│   │   │       └── home.jsx
+│   │   ├── headers/
+│   │   ├── inputs/
+│   │   ├── models/
+│   │   └── paragraphs.jsx
+│   │   └── web-site/
+│   │       ├── HowItWorks.jsx
+│   │       └── Products.jsx
+│   ├── pages/
+│   │   └── examplePage.jsx
+│   ├── routes/
+│   │   └── exampleRoute.jsx
+│   ├── styles/
+│   │   └── exampleStyle.css
+
+
+

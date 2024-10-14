@@ -1,0 +1,331 @@
+:root {
+   --primary-color: rgba(90, 71, 207, 1);
+   --secondary-color-text: rgba(94, 0, 53, 1);
+   --fade-color1: rgba(181, 170, 252, 1);
+   --fade-color2: rgba(157, 142, 251, 1);
+   --main-font: "Poppins", sans-serif;
+}
+
+body {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+
+
+.text-side {
+   background: url(../../../public/assets/images/sideimg.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   width: 45vw;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-between;
+   padding: 20px 50px;
+}
+
+.text h1 {
+   font-family: var(--main-font);
+   font-size: 2.5rem;
+   color: #f7f7f7;
+   text-transform: capitalize;
+   font-weight: 600;
+   line-height: 60px;
+   margin-bottom: 0.5em;
+
+}
+
+.bright-text p {
+   color: #f7f7f7;
+   font-family: var(--main-font);
+   font-weight: 300;
+   margin-bottom: 4em;
+   font-size: 15px;
+   line-height: 21px;
+   width: 24em;
+}
+
+/* input side */
+.header-text {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.main-header h1 {
+   font-size: 4rem;
+   font-weight: 500;
+   text-align: center;
+}
+
+/* paragraphs */
+.main-paragraph {
+   font-family: var(--main-font);
+   color: #0e0e0e84;
+   text-transform: capitalize;
+   font-size: 0.8rem;
+   font-weight: 500;
+}
+
+.main {
+   text-align: center;
+   font-family: var(--main-font);
+   color: #0e0e0e84;
+   text-transform: capitalize;
+   font-size: 0.8rem;
+   font-weight: 500;
+}
+
+.dark-paragraph {
+   font-family: var(--main-font);
+   color: #0e0e0e;
+   text-transform: capitalize;
+   font-size: 0.8rem;
+   font-weight: 500;
+}
+
+.sign-up-form {
+   padding: 10px;
+}
+
+.sign-up-form:focus {
+   outline: none;
+}
+
+.input-side {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 60%;
+}
+
+.user-form {
+   width: 100%;
+}
+
+.user-inner {
+   width: 55%;
+}
+
+.user-input {
+   padding-top: 10px;
+   width: 100%;
+}
+
+.user-input input {
+   border: 1px solid var(--fade-color2);
+   height: 2em;
+   border-radius: 5px;
+   text-align: start;
+   width: 100%;
+   text-transform: capitalize;
+   font-size: 0.9rem;
+}
+
+.user-form {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.user-form label {
+   font-size: 0.8rem;
+   font-family: var(--main-font);
+   text-transform: capitalize;
+}
+
+.user-form button {
+   width: 364px;
+   border-radius: 10px;
+   color: #f7f7f7;
+   width: 100%;
+   font-family: var(--main-font);
+   text-transform: capitalize;
+   font-size: 1.1rem;
+   background-color: var(--fade-color1);
+   height: 2.2em;
+   margin-top: 30px;
+   margin-bottom: 10px;
+}
+
+.submit-btn {
+   pointer-events: none;
+}
+
+.footer {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 10px;
+   width: 100%;
+}
+
+.footer h1 {
+   font-size: 13px;
+   font-weight: 500;
+   text-transform: capitalize;
+   color: var(--primary-color);
+   font-family: var(--main-font);
+}
+
+
+
+/* --------------------- sign in form -------------------------- */
+.main-header {
+   width: 100%;
+}
+
+.login-input {
+   display: flex;
+   flex-direction: column;
+   gap: 1em;
+   margin-top: 10%;
+}
+
+.main-header h1 {
+   text-transform: capitalize;
+   font-family: var(--main-font);
+   font-weight: 600;
+   color: #0e0e0e;
+   font-size: 28px;
+}
+
+/* footer */
+.sign-in-footer {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   width: 100%;
+
+}
+
+.borders {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+}
+
+
+.bottom-page {
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+   gap: 10px;
+   margin-top: 20px;
+}
+
+.google-auth {
+   border-radius: 40px;
+   box-shadow: 0px 2px 2px 2px gray;
+   padding: 2px;
+   width: fit-content;
+}
+
+.purple-paragraph p {
+   color: var(--primary-color);
+   font-family: var(--main-font);
+   text-transform: capitalize;
+   font-size: 13px;
+}
+
+
+/*----------------------- modals ---------------------*/
+.Main-overlay {
+   background: #0f0f0f7e;
+   /* height: 100vh; */
+   width: 100vw;
+   font-family: var(--main-font);
+   position: absolute;
+   z-index: 10;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   /* display: none; */
+}
+
+/* -------media queries-------- */
+@media (max-width: 877px) {
+   .verification-model {
+      padding: 20px 5%;
+      background: #FBF9F1;
+      height: 45vh;
+      width: 40vw;
+      border-radius: 20px;
+   }
+
+   .text h1 {
+      font-size: 2rem;
+   }
+
+   .text-side {
+      padding: 0px 5%;
+      width: 45%;
+   }
+
+   .user-inner {
+      width: 70%;
+   }
+
+   .borders h4::before {
+      display: hidden;
+   }
+
+   .borders h4::after {
+      display: hidden;
+   }
+}
+
+@media (max-width: 700px) {
+   .text-side img {
+      display: none;
+   }
+
+   .borders h4::before {
+
+      display: hidden;
+   }
+
+   .borders h4::after {
+      display: hidden;
+   }
+
+   .text h1,
+   p {
+      display: none;
+   }
+
+   .input-side {
+      position: absolute;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
+
+   .text-side {
+
+      width: 100%;
+   }
+
+   .user-form label {
+      font-size: 12px;
+      font-family: var(--main-font);
+      text-transform: capitalize;
+      color: white;
+      font-size: 600;
+   }
+}
+
+@media (max-width: 600px) {
+   .user-inner {
+      margin-top: 20px;
+   }
+
+   .login-input {
+      gap: 10px;
+   }
+}
