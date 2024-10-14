@@ -1,31 +1,26 @@
-
 # AjoVault
 
-## Overview
-
-AjoVault is the collective idea and work of our team as a final project at our six-month DevCareer Backend Engineering program, where we specialized in Node.js and React for the frontend. I, [Your Name], took it upon myself to finalize and enhance the core functionalities to deepen my backend knowledge.
+AjoVault is a comprehensive web application designed to help users manage their finances through individual savings and collaborative pooled contributions.
 
 ## Table of Contents
 
-- [Project Structure](#project-structure)
+- [Backend](#backend)
+- [Frontend](#frontend)
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 
-## Project Structure
-### Backend
+## Backend
 
 - **config/**: Configuration files, including environment variables.
 - **controllers/**: Controllers for handling requests and responses.
 - **db/**: Database connection and queries.
 - **models/**: Database models.
 - **routes/**: Route definitions.
-  - **authRoutes.js**: Authentication routes.
-  - **utilRoutes.js**: Utility routes.
+  - **[authRoutes.js](node-express-server/routes/authRoutes.js)**: Authentication routes.
+  - **[utilRoutes.js](node-express-server/routes/utilRoutes.js)**: Utility routes.
 
-### Frontend
+## Frontend
 
 - **components/**: Reusable React components.
   - **buttons/**: Button components.
@@ -54,7 +49,7 @@ AjoVault is the collective idea and work of our team as a final project at our s
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/AishatAdewoyin/ajoVault.git
+    git clone https://github.com/your-repo/project-name.git
     cd project-name
     ```
 
@@ -65,7 +60,7 @@ AjoVault is the collective idea and work of our team as a final project at our s
 
 3. Set up environment variables:
     - Create a `.env` file in the root directory.
-    - Add necessary environment variables as specified in `node-express-server/config/env.js`.
+    - Add necessary environment variables as specified in [`env.js`](node-express-server/config/env.js).
 
 4. Start the development server:
     ```sh
@@ -79,4 +74,4 @@ AjoVault is the collective idea and work of our team as a final project at our s
 
 ---
 
-**Developer**: [Aishat Adewoyin]
+**Developer**: [Aishat Adewoyin](https://github.com/aishatadewoyin)
